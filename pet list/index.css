@@ -1,0 +1,166 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background-color: #ff7c00;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* text-align: bottom; */
+    width: 100%;
+    opacity: 0.9;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.Ateg {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.Ateg:hover {
+    color: orangered;
+}
+
+.search-div {
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-input {
+    border-radius: 3px;
+    height: 10%;
+    width: 30%;
+}
+
+.formclass {
+    width: 30%;
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigaciis-serchi {
+    border-radius: 10px;
+    margin-top: 5px;
+    height: 21px;
+    width: 88%;
+    padding: 8px;
+}
+
+.pet-list {
+    /* padding: 50px; */
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.gancxadeba-div {
+    padding-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gancxadebissatauri {
+    color: #ff7c00;
+    font-weight: bolder;
+}
+
+.div_delete_button {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Button-detalurad:hover {
+    opacity: 1;
+    background: #ff7c00;
+}
+
+.Button-detalurad {
+    background: #ff7c00;
+    color: white;
+    width: 140px;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    opacity: 0.9;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.delete_button:hover {
+    opacity: 1;
+    background: #ff7c00;
+}
+
+.delete_button {
+    background: #ff7c00;
+    color: white;
+    width: 140px;
+    border: none;
+    cursor: pointer;
+    height: 50px;
+    opacity: 0.9;
+    padding: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+
+.img-class {
+    object-fit: cover;
+    width: 250px;
+    height: 300px;
+}
+
+.product-info1 {
+    width: 20vw;
+}
+
+.product-info {
+    margin: 6px 0px;
+    text-align: left;
+    width: 20vw;
+    opacity: 0.7;
+}
+
+.hiden {
+    display: none;
+}
+
+
+/* .gancxadeba_delete_button_i {
+  
+} */
+
+.fa-times-circle-o:before {
+    font-size: xx-large;
+    color: red;
+    cursor: pointer;
+}
+
+.gancxadeba_delete_button_div {
+    display: flex;
+    justify-content: flex-end;
+    width: 30%;
+    /* display: none; */
+    /* text-align: end; */
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="newADS.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="Ateg">home</a>
+            <a href="#" class="Ateg">about</a>
+            <a href="#" class="Ateg">contact</a>
+            <a href="newADS.html" class="Ateg">new ADS</a>
+        </nav>
+    </header>
+    <form action="#" class="form-classs2">
+        <h4>განცხადების დამატება</h4>
+        <div class="divform">
+            <label id="label_gancxadebisSaxeli" for="gancxadebisSaxeli">განცხადების სახელი
+                 <i class="fa fa-check-circle" id="label_gancxadebisSaxeli_icon" aria-hidden="true"></i> </label>
+            <input type="name" name="gancxadebisSaxeli" id="gancxadebisSaxeli">
+            <i class="fa fa-info-circle" id="iamge-error-Icon1" aria-hidden="true">  გთხოვთ შეიყვანოთ განცხადების სახელი</i>
+        </div>
+
+        <div class="divform">
+            <label id="label_momxmareblisSaxeli" for="momxmareblisSaxeli">მომხმარებლის სახელი
+                 <i class="fa fa-check-circle" id="label_momxmareblisSaxeli_icon" aria-hidden="true"></i> </label>
+            <input type="name" name="momxmareblisSaxeli" id="momxmareblisSaxeli">
+            <i class="fa fa-info-circle" id="iamge-error-Icon2" aria-hidden="true">  გთხოვთ შეიყვანოთ მომხმარებლის სახელი</i>
+        </div>
+        <div class="divform">
+            <label id="label_MomxmareblisNomeri" for="MomxmareblisNomeri">მომხმარებლის ნოემრი 
+                <i class="fa fa-check-circle" id="label_MomxmareblisNomeri_icon" aria-hidden="true"></i> </label>
+            <input type="tel" name="MomxmareblisNomeri" id="MomxmareblisNomeri">
+            <i class="fa fa-info-circle" id="iamge-error-Icon3" aria-hidden="true"> გთხოვთ შეიყვანოთ მომხმარებლის ნოემრი</i>
+        </div>
+        <div class="divform">
+            <label id="label_momxmareblisAdgilmdebareoba" for="momxmareblisAdgilmdebareoba">მომხმარებლის ადგილმდებარეობა 
+                <i class="fa fa-check-circle" id="label_momxmareblisAdgilmdebareoba_icon" aria-hidden="true"></i> </label>
+            <input type="text" name="momxmareblisAdgilmdebareoba" id="momxmareblisAdgilmdebareoba">
+            <i class="fa fa-info-circle" id="iamge-error-Icon4" aria-hidden="true"> გთხოვთ შეიყვანოთ თქვენი  ადგილმდებარეობა</i>
+        </div>
+        <div class="divform">
+            <label id="label_cxovelisSuratiURLText" for="cxovelisSuratiURL">ცხოველის სურათი URL 
+                <i class="fa fa-check-circle" id="label_cxovelisSuratiURL_icon" aria-hidden="true"></i> </label>
+
+            <input type="text" name="cxovelisSuratiURL" id="cxovelisSuratiURL">
+            <i class="fa fa-info-circle" id="iamge-error-Icon" aria-hidden="true">  გთხოვთ ატვირთოთ  სურათი</i>
+            <!-- <input type="file" name="cxovelisSuratiURL" id="cxovelisSuratiURL"> -->
+        </div>
+        <div id="divformid">
+            <!-- <img class="imgcxovelisURL" src="" alt=""> -->
+        </div>
+        <div class="divform">
+            <label for="agwera">აღწერა</label>
+            <textarea name="agwera" id="agwera" cols="30" rows="10"></textarea>
+        </div>
+        <button type="button" id="addbutton" class="Button-detalurad ">დაამატე განცხადება</button>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="classes.js"></script>
+    <script src="newADS.js"></script>
+
+</body>
+
+</html>

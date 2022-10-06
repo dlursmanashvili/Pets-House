@@ -1,0 +1,78 @@
+.form-classs2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.divform {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+body .Button-detalurad {
+    margin-top: 20px;
+}
+
+.imgcxovelisURL {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#divformid {
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+    /* display: none; */
+}
+
+#iamge-error-Icon {
+    color: orangered;
+    font-size: 14px;
+    display: none;
+}
+
+#iamge-error-Icon4 {
+    color: orangered;
+    font-size: 14px;
+    display: none;
+}
+
+#iamge-error-Icon3 {
+    color: orangered;
+    font-size: 14px;
+    display: none;
+}
+
+#iamge-error-Icon2 {
+    color: orangered;
+    font-size: 14px;
+    display: none;
+}
+
+#iamge-error-Icon1 {
+    color: orangered;
+    font-size: 14px;
+    display: none;
+}
+
+#label_cxovelisSuratiURL_icon {
+    display: none;
+}
+
+#label_momxmareblisAdgilmdebareoba_icon {
+    display: none;
+}
+
+#label_MomxmareblisNomeri_icon {
+    display: none;
+}
+
+#label_momxmareblisSaxeli_icon {
+    display: none;
+}
+
+#label_gancxadebisSaxeli_icon {
+    display: none;
+}

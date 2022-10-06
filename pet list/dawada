@@ -1,0 +1,32 @@
+const searchButton = document.querySelector(".search-button")
+const searchInput = document.querySelector(".navigaciis-serchi")
+const searchInputValue = searchInput.value
+
+
+
+
+// searchButton.addEventListener('click', () => {
+
+
+//     for (let b = 0; b < gancxadebamasivi.length; b++) {
+//         const element = gancxadebamasivi[b];
+
+//         if (searchInput.value === gancxadebisSaxeli.value) {
+//             appendgancxadeba(element)
+//         } else {
+//             petlisthtml.innerHTML += 'ver moiDZebna gancxadeba';
+
+//         }
+
+
+//     }
+
+//     // if (condition) {
+
+//     // }
+//     // if (condition) {
+
+//     // } 
+
+
+// });
